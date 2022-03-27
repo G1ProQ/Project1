@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 17px;
+    color: #444;
+    
+}
+/*General*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 10px;
+    padding: 0px;
+}
+
+.icon {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+} 
+
+/*HEADER */
+
+header {
+    margin-bottom: 80px;
+}
+
+header .header_wrap {
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+}
+
+header .list__item {
+    display: flex;
+    gap: 20px;
+}
+
+header .socials {
+    display: flex;
+    gap: 40px;
+}
+
+header .search {
+    margin: 10px;
+    padding: 10px;
+    border-left: black solid 3px;
+}
+
+header .list__item .simple__link {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header .list__item .simple__link:hover {
+    color: #00aedb;
+    transition: all 0.3s ease;
+}
+
+header .socials .desc {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header .socials .desc:hover {
+    color: rgb(107, 107, 192);
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc:hover {
+    color: rgb(59, 59, 212);
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc__desc {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc__desc:hover {
+    color: rgb(209, 28, 67);
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc__desc__desc {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+header .socials .desc__desc__desc__desc:hover {
+    color: red;
+    transition: all 0.3s ease;
+}
+
+/*MAIN*/
+
+main .blog {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+main .blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .blog .item-01 {
+    /* margin-left: 20px; */
+    position: relative;
+}
+
+main .blog .item .thumb {
+    /* đặt chỗ này nè e */
+    overflow: hidden;
+}
+
+main .blog .item img {
+    transition: all 0.3s ease;
+    transform: scale(1);
+}
+
+main .blog .item:hover img {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+}
+
+main .blog .item-02 {
+    /* margin-right: 20px; */
+    max-width: 33%;
+    height: auto;
+    border: gray solid 1px;
+
+}
+
+
+main .blog .item-01 .item__desc {
+    position: absolute;
+    transform: translateY(-100%);
+    font-size: 30px;
+}
+
+main .blog .item-02 .item  {
+    position: relative;
+    border-bottom: black solid 1px;
+    
+}
+
+main .blog .item-02 .desc {
+    position: absolute;
+    transform: translateY(-80%);
+}
+
+/* main .blog .item-02 .thumb-01:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    
+} */
+
+
+main .blog .item-02 .desc__desc {
+    position: absolute;
+    transform: translateY(-80%);
+}
+
+.story {
+    max-width: 95%;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.story .service__wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 86px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.story .service__wrap .item {
+    width: calc(100%/3-30px);
+    height: 250px;
+}
+
+main .story {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+/*FOOTER*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer .list__item {
+    display: flex;
+    gap: 100px;
+    color: black;
+    transition: all ease 0.5s;
+}
+
+footer .list__item .item:hover {
+    color: #00aedb;
+    transition: all 0.3s ease;
+}
+
+footer .socials {
+    display: flex;
+    color: black;
+    transition: all ease 0.5s;
+    gap: 30px;
+
+}
+
+footer .socials .twitter {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+footer .socials .twitter:hover {
+    color: rgb(107, 107, 192);
+    transition: all 0.3s ease;
+}
+
+footer .socials .facebook {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+footer .socials .facebook:hover {
+    color: rgb(59, 59, 212);
+    transition: all 0.3s ease;
+}
+
+footer .socials .insta {
+    color: black;
+    transition: all 0.3s ease;
+}
+
+footer .socials .insta:hover {
+    color: rgb(209, 28, 67);
+    transition: all 0.3s ease;
+}
